@@ -1,8 +1,11 @@
 {
-  "name": "playwright",
+  "name": "puppeteer-app",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^22.0.0"
   }
 }
