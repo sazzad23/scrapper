@@ -8,7 +8,7 @@ app.get('/', async (req, res) => {
     args: ['--no-sandbox', '--disable-setuid-sandbox']
   });
   const page = await browser.newPage();
-  await page.goto('https://example.com');
+  await page.goto('https://stockanalysis.com/quote/dse/OLYMPIC/');
   const title = await page.title();
   await browser.close();
 
